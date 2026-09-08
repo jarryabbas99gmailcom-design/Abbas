@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our College</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        .about-section {
+            padding: 60px 8%;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title h1 {
+            color: #123c69;
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #777;
+            font-size: 16px;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .card h2 {
+            color: #123c69;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .card p {
+            line-height: 1.7;
+            color: #555;
+        }
+
+        .college-info {
+            margin-top: 20px;
+        }
+
+        .college-info p {
+            margin: 12px 0;
+        }
+
+        .college-info strong {
+            color: #123c69;
+        }
+
+        .contact-details {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .contact-details li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .contact-details li:last-child {
+            border-bottom: none;
+        }
+
+        .contact-details strong {
+            color: #123c69;
+        }
+
+        .contact-details a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .contact-details a:hover {
+            color: #123c69;
+        }
+
+        .mission {
+            margin-top: 30px;
+            text-align: center;
+            background: #123c69;
+            color: white;
+            padding: 35px;
+            border-radius: 10px;
+        }
+
+        .mission h2 {
+            margin-bottom: 15px;
+        }
+
+        .mission p {
+            line-height: 1.7;
+        }
+
+        @media (max-width: 768px) {
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title h1 {
+                font-size: 30px;
+            }
+
+            .about-section {
+                padding: 40px 5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="about-section">
+        <div class="container">
+
+            <!-- Section Heading -->
+            <div class="section-title">
+                <h1>About Our College</h1>
+                <p>Learn more about our institution, location, and contact information.</p>
+            </div>
+
+            <div class="about-content">
+
+                <!-- College Information -->
+                <div class="card">
+                    <h2>College Details</h2>
+
+                    <div class="college-info">
+                        <p>
+                            <strong>College Name:</strong><br>
+                            ABC Institute of Technology
+                        </p>
+
+                        <p>
+                            <strong>Address:</strong><br>
+                            123 College Road, Bengaluru,<br>
+                            Karnataka - 560001, India
+                        </p>
+
+                        <p>
+                            <strong>Established:</strong><br>
+                            1995
+                        </p>
+
+                        <p>
+                            <strong>Affiliation:</strong><br>
+                            ABC University
+                        </p>
+                    </div>
+                </div>
+
+                <!-- About Us -->
+                <div class="card">
+                    <h2>About Us</h2>
+
+                    <p>
+                        ABC Institute of Technology is a premier educational
+                        institution committed to providing quality education
+                        and creating future-ready professionals. Our college
+                        offers a supportive learning environment with
+                        experienced faculty, modern infrastructure, and
+                        opportunities for students to develop their academic
+                        and professional skills.
+                    </p>
+
+                    <br>
+
+                    <p>
+                        We believe in combining academic excellence with
+                        practical knowledge, innovation, research, and
+                        character development. Our goal is to empower students
+                        to become responsible professionals and contribute
+                        positively to society.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Contact Us -->
+            <div class="card" style="margin-top: 30px;">
+                <h2>Contact Us</h2>
+
+                <ul class="contact-details">
+                    <li>
+                        <strong>📍 Address:</strong>
+                        123 College Road, Bengaluru, Karnataka - 560001
+                    </li>
+
+                    <li>
+                        <strong>📞 Phone:</strong>
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+                    </li>
+
+                    <li>
+                        <strong>✉ Email:</strong>
+                        <a href="mailto:info@abccollege.edu">
+                            info@abccollege.edu
+                        </a>
+                    </li>
+
+                    <li>
+                        <strong>🌐 Website:</strong>
+                        <a href="https://www.abccollege.edu" target="_blank">
+                            www.abccollege.edu
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Mission -->
+            <div class="mission">
+                <h2>Our Mission</h2>
+
+                <p>
+                    To provide quality education, encourage innovation and
+                    research, develop leadership skills, and prepare students
+                    to meet the challenges of a rapidly changing world.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
